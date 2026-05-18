@@ -1,0 +1,73 @@
+# Python virtual environment
+/venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE and editor configuration
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Log and output files
+*.log
+*.gguf
+
+
+# Large Model Weight Framework Arrays
+outputs/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Heavy Third-Party Modules & Cloned Source Utilities
+/llama.cpp/
+convert_hf_to_gguf.py
+
+# Large Cache Folders & Local Downstream Storage
+/huggingface/
+.cache/
+D:/temp/
+D:/HF_Cache/
+
+# Synthetic Training Datasets (Optional but recommended)
+*.json
+*.jsonl
+
+# Security, Cloud Infrastructure & Hardware Configuration Secrets
+.env
+.secrets
+
+# Unsloth Runtime Compilations and Cache Layers
+unsloth_compiled_cache/
+.unsloth/
+unsloth/
+
+# User Home Directory Fallbacks & Shortcuts
+~ /
+~/
